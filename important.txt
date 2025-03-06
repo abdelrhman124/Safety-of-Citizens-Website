@@ -1,0 +1,11 @@
+npm init --yes
+
+npm i mongoose         mongodb
+
+npm i express          framework
+
+npm i -g nodemon 
+
+npm i joi              input validation
+
+npm i multer             photo
