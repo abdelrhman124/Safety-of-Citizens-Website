@@ -1,0 +1,65 @@
+#im{
+    width: 60%;
+    height: 70%;
+    margin-top: 16%;
+}
+.card{
+    border: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    padding-left: 150px;
+}
+.abdallah{
+    font-weight: 400;
+    text-align: center;
+}
+.card-title-abdo{
+    padding-left: 220px;
+
+}
+.line{
+
+    font-weight: 400;
+    padding-left: 170px;
+
+
+}
+.data-web{
+
+    font-weight: 400;
+    font-size: 105%;
+    margin-right: 35%;
+    text-align: justify;
+    text-align: initial;
+    direction: rtl;
+
+}
+.data-wed{
+font-size: 100%;
+font-weight: 400px;
+/* margin-left: 48%; */
+/* text-align: initial; */
+    direction: rtl;
+ /* text-align: justify; */
+
+}
+#demo{
+
+border: none;
+	margin: -100px 20px;
+	margin-left: 20%;
+margin-top: -62px;
+	cursor: pointer;
+
+}
+.luxor{
+
+padding-bottom: 50px ;
+
+
+}

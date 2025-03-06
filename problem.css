@@ -1,0 +1,14 @@
+.card{
+    background-image: url(problem\ and\ suggestios.jpg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    padding-bottom: 900px;
+}
+label{
+    color: blue;
+}
+textarea{
+    width: 430px;
+    align-items: center;
+    height: 150px;
+}

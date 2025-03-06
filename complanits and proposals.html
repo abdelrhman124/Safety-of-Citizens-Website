@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Complaints and proposals</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="test7.css">
+</head>
+<script>
+	function displaymessage(){
+		alert( "ok your data accepted");
+		location.reload();
+	}
+</script>
+<body>
+	<header>
+		<h1>Safety of Citiezn</h1>
+	</header>
+	<main>
+		<form action="submit.php" method="post">
+			<label style="display: block; direction: ltr;" for="feedback">complaints</label>
+			<textarea style="direction: ltr;" id="feedback" name="feedback"required ></textarea>
+			<input type="submit" value="Submit" onclick="displaymessage()" >
+			
+			<label style="display: block; direction: ltr;" for="feedback">proposals</label>
+			<textarea style="direction: ltr;" id="feedback" name="feedback" required></textarea> 
+			<input type="submit" value="Submit" onclick="displaymessage()" >
+		  </form>		  
+	</main>
+	<footer>
+		<p>&copy; MTI University</p>
+		<div id="myDiv"></div>
+
+	</footer>
+</body>
+</html>
